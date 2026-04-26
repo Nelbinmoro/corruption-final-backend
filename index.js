@@ -55,7 +55,7 @@ const app = express();
 /* -------- CORS CONFIG -------- */
 const allowedOrigins = [
   "http://localhost:5173", // local frontend
-  "https://your-app.netlify.app" // deployed frontend (CHANGE THIS)
+  "https://corruptionreportingplatform.netlify.app" // deployed frontend (CHANGE THIS)
 ];
 
 app.use(cors({
